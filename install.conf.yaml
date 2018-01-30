@@ -13,5 +13,4 @@
     ~/.jupyter/custom/custom: jupyter/custom.js
     ~/.jupyter/nbconfig: jupyter/notebook.json
     ~/.jupyter/jupyter_notebook_config.py: jupyter/jupyter_notebook_config.py
-    ~/.local/share/jupyter/nbextensions: jupyter/nbextensions
 
