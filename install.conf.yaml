@@ -8,5 +8,6 @@
     ~/.gitconfig: gitconfig
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
-    ~/.tmux.conf:
+    ~/.tmux.conf: tmux.conf
+    ~/.condarc: condarc
 
