@@ -1,6 +1,10 @@
 [user]
 	name = raphaeltimbo
 	email = raphaelts@gmail.com
+[alias]
+    st = stats -sb
+    update-submodules = submodule update --init --recursive
+    upgrade-submodules = submodule update --init --remote
 [core]
 	autocrlf = input
 [diff "jupyternotebook"]
@@ -18,3 +22,13 @@
 	prompt = false
 [push]
 	default = simple
+[color]
+    ui = auto
+[color "grep"]
+    match = cyan bold
+    selected = blue
+    context = normal
+    filename = magenta
+    linenumber = green
+    separator = yellow
+    function = blue

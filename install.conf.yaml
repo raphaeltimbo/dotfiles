@@ -6,11 +6,15 @@
     ~/.bash_logout: bash_logout
     ~/.bash_aliases: bash_aliases
     ~/.gitconfig: gitconfig
-    ~/.vimrc: vimrc
     ~/.zshrc: zshrc
     ~/.tmux.conf: tmux.conf
     ~/.condarc: condarc
     ~/.jupyter/custom/custom: jupyter/custom.js
     ~/.jupyter/nbconfig/notebook.json: jupyter/notebook.json
     ~/.jupyter/jupyter_notebook_config.py: jupyter/jupyter_notebook_config.py
+    ~/.vim:        
+    ~/.vimrc: 
+
+- shell:
+  - git update-submodules
 
