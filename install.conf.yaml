@@ -5,7 +5,8 @@
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout
     ~/.bash_aliases: bash_aliases
-    ~/.gitconfig: gitconfig
+    ~/.gitconfig: 
+    ~/.gitignore_global:
     ~/.zshrc: zshrc
     ~/.tmux.conf: tmux.conf
     ~/.condarc: condarc
