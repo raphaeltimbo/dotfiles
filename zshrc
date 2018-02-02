@@ -1,3 +1,13 @@
+# initialize completion
+autoload -Uz compinit && compinit -i
+zstyle ':completion:*' menu select=4
+zmodload zsh/complist
+# Use vim style navigation keys in menu completion
+bindkey -M menuselect 'h' vi-backward-char
+bindkey -M menuselect 'k' vi-up-line-or-history
+bindkey -M menuselect 'l' vi-forward-char
+bindkey -M menuselect 'j' vi-down-line-or-history
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -111,3 +121,4 @@ export PATH="/home/raphael/anaconda3/bin:$PATH"
 # vim as default editor
 export VISUAL=vim
 export EDITOR=$VISUAL
+
