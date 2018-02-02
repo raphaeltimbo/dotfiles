@@ -5,16 +5,16 @@
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout
     ~/.bash_aliases: bash_aliases
-    ~/.gitconfig: 
+    ~/.gitconfig:
     ~/.gitignore_global:
-    ~/.zshrc: zshrc
     ~/.tmux.conf: tmux.conf
     ~/.condarc: condarc
     ~/.jupyter/custom/custom: jupyter/custom.js
     ~/.jupyter/nbconfig/notebook.json: jupyter/notebook.json
     ~/.jupyter/jupyter_notebook_config.py: jupyter/jupyter_notebook_config.py
-    ~/.vim:        
-    ~/.vimrc: 
+    ~/.vim:
+    ~/.vimrc:
+    ~/.zshrc:
 
 - shell:
   - git update-submodules
