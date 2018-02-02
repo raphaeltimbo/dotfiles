@@ -23,6 +23,10 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
+" copy and paste to/from clipboard -> "+ is used to acess the register
+vnoremap <C-c> "+y
+vnoremap <C-v> "+p
+
 " color scheme
 syntax enable
 set background=dark
