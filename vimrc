@@ -36,7 +36,8 @@ let g:lightline = {'colorscheme': 'solarized'}
 " text format
 filetype plugin indent on " enable file type detection
 set autoindent
-autocm Filetype gitcommit spell textwidth=72
+
+"autocm Filetype gitcommit setlocal spell textwidth=72
 
 "---------------------
 " Basic editing config
