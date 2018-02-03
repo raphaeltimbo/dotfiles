@@ -103,7 +103,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias hdpython='cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON'
+alias cdhdpython='cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON'
+alias cdprf='cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON/prf'
+alias cdlavirot='cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON/LaviRot'
 
 # added by Anaconda3 4.2.0 installer
 export PATH="/home/raphael/anaconda3/bin:$PATH"
@@ -121,4 +123,19 @@ export PATH="/home/raphael/anaconda3/bin:$PATH"
 # vim as default editor
 export VISUAL=vim
 export EDITOR=$VISUAL
+
+# Use vim style line editing in zsh
+bindkey -v
+# Movement
+bindkey -a 'gg' beginning-of-buffer-or-history
+bindkey -a 'G' end-of-buffer-or-history
+# Undo
+bindkey -a 'u' undo
+bindkey -a '^R' redo
+# Edit line
+bindkey -a '^V' edit-command-line
+# Backspace
+bindkey '^?' backward-delete-char
+bindkey '^H' backward-delete-char
+
 
