@@ -7,6 +7,7 @@
     upgrade-submodules = submodule update --init --remote
 [core]
 	autocrlf = input
+    excludesfile = ~/.gitignore_global
 [diff "jupyternotebook"]
 	command = git-nbdiffdriver diff
 [merge "jupyternotebook"]
