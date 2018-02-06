@@ -43,6 +43,10 @@ let g:jedi#use_splits_not_buffers = "bottom"
 " Enable folding with the spacebar
 nnoremap <space> za
 
+highlight BadWhitespace ctermbg=DarkCyan guibg=DarkCyan
+" flag unnecessary whitespace
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+
 "---------------------
 " Basic editing config
 "---------------------

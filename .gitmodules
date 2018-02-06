@@ -25,4 +25,8 @@
     path = vim/bundle/SimpyIFold
     url = https://github.com/tmhedberg/SimpyIFold
     ignore = untracked
+ [submodule "vim/bundle/indentpython"]
+    path = vim/bundle/indentpython
+    url = https://github.com/vim-scripts/indentpython
+    ignore = untracked
    
