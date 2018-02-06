@@ -5,6 +5,9 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 call pathogen#helptags()
 
+" space as leader
+let mapleader = (' ')
+
 imap jj <Esc>
 xnoremap p pgvy
 nnoremap - $
@@ -39,6 +42,10 @@ set autoindent
 
 " jedi
 let g:jedi#use_splits_not_buffers = "bottom"
+
+" youcompleteme
+let g:ycm_autoclose_preview_window_after_completion=1
+map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 " Enable folding with the spacebar
 nnoremap <space> za
