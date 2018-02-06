@@ -19,3 +19,4 @@ create_default_packages:
   - nb_conda_kernels
   - pytest
   - jupyter_contrib_nbextensions
+  - flake8
