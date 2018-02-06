@@ -40,9 +40,6 @@ set autoindent
 " jedi
 let g:jedi#use_splits_not_buffers = "bottom"
 
-" Enable folding
-"set foldmethod=indent
-"set foldlevel=99
 " Enable folding with the spacebar
 nnoremap <space> za
 
