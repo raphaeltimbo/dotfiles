@@ -17,4 +17,12 @@
     path = vim/bundle/lightline.vim
     url = https://github.com/itchyny/lightline.vim
     ignore = untracked
-    
+[submodule "vim/bundle/jedi-vim"]
+    path = vim/bundle/jedi-vim
+    url = https://github.com/davidhalter/jedi-vim
+    ignore = untracked
+ [submodule "vim/bundle/SimpyIFold"]
+    path = vim/bundle/SimpyIFold
+    url = https://github.com/tmhedberg/SimpyIFold
+    ignore = untracked
+   

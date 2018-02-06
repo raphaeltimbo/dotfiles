@@ -37,6 +37,15 @@ let g:lightline = {'colorscheme': 'solarized'}
 filetype plugin indent on " enable file type detection
 set autoindent
 
+" jedi
+let g:jedi#use_splits_not_buffers = "bottom"
+
+" Enable folding
+"set foldmethod=indent
+"set foldlevel=99
+" Enable folding with the spacebar
+nnoremap <space> za
+
 "---------------------
 " Basic editing config
 "---------------------
