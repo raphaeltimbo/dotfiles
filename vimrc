@@ -65,6 +65,11 @@ let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 let g:syntastic_python_checkers = ['pylint']
 
+" airline
+let g:airline_powerline_fonts=1
+let g:airline_theme='solarized'
+let g:airline_solarized_bg='dark'
+
 "---------------------
 " Basic editing config
 "---------------------
