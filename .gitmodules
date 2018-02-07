@@ -41,4 +41,8 @@
     path = vim/bundle/vim-fugitive
     url = https://github.com/tpope/vim-fugitive
     ignore = untracked
+ [submodule "vim/bundle/vim-airline"]
+    path = vim/bundle/vim-airline
+    url = https://github.com/vim-airline/vim-airline
+    ignore = untracked
                 
