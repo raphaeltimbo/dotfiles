@@ -8,6 +8,14 @@ bindkey -M menuselect 'k' vi-up-line-or-history
 bindkey -M menuselect 'l' vi-forward-char
 bindkey -M menuselect 'j' vi-down-line-or-history
 
+# Nicer history
+HISTSIZE=1048576
+HISTFILE="$HOME/.zsh_history"
+SAVEHIST=$HISTSIZE
+setopt appendhistory
+setopt incappendhistory
+setopt extendedhistory
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
