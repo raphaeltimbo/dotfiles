@@ -66,7 +66,7 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_python_checkers = ['pylint']
 
 " powerline
-set rtp+=~/.dotfiles/vim/bundle/powerline/powerline/bindings/vim
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
 "---------------------
 " Basic editing config
