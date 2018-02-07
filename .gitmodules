@@ -23,7 +23,7 @@
     ignore = untracked
  [submodule "vim/bundle/indentpython"]
     path = vim/bundle/indentpython
-    url = https://github.com/vim-scripts/indentpython
+    url = https://github.com/vim-scripts/indentpython.vim
     ignore = untracked
  [submodule "vim/bundle/YouCompleteMe"]
     path = vim/bundle/YouCompleteMe
