@@ -45,4 +45,9 @@
     path = vim/bundle/powerline
     url = https://github.com/powerline/powerline
     ignore = untracked
-                
+[submodule "vim/powerline/nerdcommenter"]
+    path = vim/bundle/nerdcommenter
+    url = https://github.com/scrooloose/nerdcommenter.git
+    ignore = untracked
+
+              
