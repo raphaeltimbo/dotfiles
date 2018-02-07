@@ -19,6 +19,7 @@ bindkey -M menuselect 'j' vi-down-line-or-history
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="agnoster"
 eval `dircolors ~/.dir_colors/dircolors`
+. ~/.vim/bundle/powerline/powerline/bindings/zsh/powerline.zsh
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
