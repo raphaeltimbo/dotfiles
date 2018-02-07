@@ -5,7 +5,7 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 call pathogen#helptags()
 
-" space as leader
+" space as leader \<Space>?
 let mapleader = (' ')
 
 imap jj <Esc>
