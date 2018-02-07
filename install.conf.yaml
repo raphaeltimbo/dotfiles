@@ -15,7 +15,6 @@
     ~/.vim:
     ~/.vimrc:
     ~/.zshrc:
-    ~/.tmux:
 
 - shell:
   - git update-submodules
