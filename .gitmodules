@@ -41,4 +41,8 @@
     path = vim/bundle/vim-fugitive
     url = https://github.com/tpope/vim-fugitive
     ignore = untracked
+ [submodule "vim/powerline/powerline"]
+    path = vim/bundle/powerline
+    url = https://github.com/powerline/powerline
+    ignore = untracked
                
