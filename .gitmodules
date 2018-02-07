@@ -45,8 +45,4 @@
     path = vim/bundle/powerline
     url = https://github.com/powerline/powerline
     ignore = untracked
- [submodule "tmux/tmux-colors-solarized"]
-    path = vim/bundle/tmux-colors-solarized
-    url = https://github.com/seebi/tmux-colors-solarized
-    ignore = untracked
                 
