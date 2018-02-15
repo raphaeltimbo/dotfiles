@@ -8,10 +8,12 @@ call pathogen#helptags()
 " space as leader \<Space>?
 let mapleader = (' ')
 
+nnoremap ; :
 imap jj <Esc>
 xnoremap p pgvy
-nnoremap - $
-vnoremap - $
+"nnoremap - $
+"vnoremap - $
+"nnoremap = -
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 nmap <F6> :NERDTreeToggle<CR>
 
