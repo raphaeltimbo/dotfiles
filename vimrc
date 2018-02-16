@@ -8,7 +8,6 @@ call pathogen#helptags()
 " space as leader \<Space>?
 let mapleader = (' ')
 
-nnoremap ; :
 imap jj <Esc>
 xnoremap p pgvy
 nnoremap - $
