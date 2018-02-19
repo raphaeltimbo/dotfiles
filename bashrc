@@ -116,8 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# added by Anaconda3 4.2.0 installer
-export PATH="/home/raphael/anaconda3/bin:$PATH"
 export PATH="/home/scripts:$PATH"
 
 # PYTHONPATH
@@ -127,10 +125,6 @@ export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/TRABALHO/MATERIAL/PY
 export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/TRABALHO/MATERIAL/PYTHON/PIPlot"
 echo $PYTHONPATH
 echo "executed"
-
-
-# added by Anaconda3 4.3.0 installer
-export PATH="/home/raphael/anaconda3/bin:$PATH"
 
 # vim as default editor
 export VISUAL=vim
