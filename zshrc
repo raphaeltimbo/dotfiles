@@ -117,7 +117,7 @@ alias cdprf='cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON/prf'
 alias cdlavirot='cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON/LaviRot'
 
 # added by Anaconda3 4.2.0 installer
-export PATH="/home/raphael/anaconda3/bin:$PATH"
+source /home/raphael/anaconda3/etc/profile.d/conda.sh
 export PATH="/home/scripts:$PATH"
 
 # PYTHONPATH
@@ -125,9 +125,6 @@ export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/TRABALHO/MATERIAL/PY
 export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/TRABALHO/MATERIAL/PYTHON/vibration_toolbox"
 export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/TRABALHO/MATERIAL/PYTHON/prf/"
 export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/TRABALHO/MATERIAL/PYTHON/PIPlot"
-
-# added by Anaconda3 4.3.0 installer
-export PATH="/home/raphael/anaconda3/bin:$PATH"
 
 # vim as default editor
 export VISUAL=vim
