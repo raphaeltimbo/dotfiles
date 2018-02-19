@@ -1,4 +1,5 @@
 channels:
+  - conda-canary
   - conda-forge
   - defaults
 create_default_packages:
@@ -20,4 +21,4 @@ create_default_packages:
   - pytest
   - jupyter_contrib_nbextensions
   - pylint
-  
+
