@@ -21,4 +21,5 @@ create_default_packages:
   - pytest
   - jupyter_contrib_nbextensions
   - pylint
+  - powerline-status
 
