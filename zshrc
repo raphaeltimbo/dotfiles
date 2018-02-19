@@ -116,8 +116,9 @@ alias cdhdpython='cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON'
 alias cdprf='cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON/prf'
 alias cdlavirot='cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON/LaviRot'
 
-# added by Anaconda3 4.2.0 installer
+# source conda and activate base environment.
 source /home/raphael/anaconda3/etc/profile.d/conda.sh
+conda activate base
 export PATH="/home/scripts:$PATH"
 
 # PYTHONPATH
