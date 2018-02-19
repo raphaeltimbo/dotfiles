@@ -119,7 +119,7 @@ alias cdlavirot='cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON/LaviRot
 # source conda and activate base environment.
 source /home/raphael/anaconda3/etc/profile.d/conda.sh
 conda activate base
-export PATH="/home/scripts:$PATH"
+export PATH="/home/raphael/scripts:$PATH"
 
 # PYTHONPATH
 export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/TRABALHO/MATERIAL/PYTHON/LaviRot"
