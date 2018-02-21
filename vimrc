@@ -79,6 +79,28 @@ let g:syntastic_python_checkers = ['pylint']
 " powerline
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
+"vimwiki
+filetype plugin on
+syntax on
+
+let wiki_1 = {}
+let wiki_1.syntax = 'markdown'
+let wiki_1.ext = '.md'
+let wiki_1.path = '~/my_docs/'
+let wiki_1.html_template = '~/public_html/template.tpl'
+let wiki_1.nested_syntaxes = {'python': 'python', 'c++': 'cpp'}
+
+let g:vimwiki_list = [wiki_1]
+
+" vimwiki with markdown support
+let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
+" helppage -> :h vimwiki-syntax 
+
+" vim-instant-markdown - Instant Markdown previews from Vim
+" https://github.com/suan/vim-instant-markdown
+let g:instant_markdown_autostart = 0	" disable autostart
+map <leader>md :InstantMarkdownPreview<CR>"
+
 "---------------------
 " Basic editing config
 "---------------------
