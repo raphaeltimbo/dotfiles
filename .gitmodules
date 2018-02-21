@@ -51,3 +51,6 @@
     ignore = untracked
 
               
+[submodule "vim/bundle/vimwiki"]
+	path = vim/bundle/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git
