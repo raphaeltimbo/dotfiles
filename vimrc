@@ -13,7 +13,18 @@ xnoremap p pgvy
 nnoremap - $
 vnoremap - $
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+
 nmap <F6> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
+
+" start nerd tree if no file is given
+function! StartUp()
+    if 0 == argc()
+        NERDTree
+    end
+endfunction
+
+autocmd VimEnter * call StartUp()
 
 " split config
 " open new split panes to right and bottom, which feels more natural
