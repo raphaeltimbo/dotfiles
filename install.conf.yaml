@@ -11,7 +11,7 @@
     ~/.jupyter/custom/custom: jupyter/custom.js
     ~/.jupyter/nbconfig/notebook.json: jupyter/notebook.json
     ~/.jupyter/jupyter_notebook_config.py: jupyter/jupyter_notebook_config.py
-    ~/.screenrc
+    ~/.screenrc:
     ~/.tmux.conf: tmux.conf
     ~/.vim:
     ~/.vimrc:
