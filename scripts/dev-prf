@@ -8,7 +8,7 @@ cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON/prf/prf
 
 tmux new-session -d 'vim'
 tmux split-window -v 
-tmux new-window 'jupyter lab'
+tmux new-window 'jupyter notebook'
 tmux last-window
 tmux -2 attach-session -d
 
