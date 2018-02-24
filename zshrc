@@ -120,9 +120,16 @@ alias cdlavirot='cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON/LaviRot
 CONDA_DIR="$HOME/anaconda3/etc/profile.d/"
 MINICONDA_DIR="$HOME/miniconda3/etc/profile.d/"
 
-if [ -d $CONDA_DIR ]; then
-    source $CONDA_DIR/conda.sh
-    conda activate base
+source $CONDA_DIR/conda.sh
+
+# check if conda env is already set
+if [ -z $CONDA_PREFIX ]; then
+    if [ -d $CONDA_DIR ]; then
+        source $CONDA_DIR/conda.sh
+        conda activate base
+    fi
+else
+    conda activate ${CONDA_PREFIX}
 fi
 
 export PATH="$HOME/scripts:$PATH"
