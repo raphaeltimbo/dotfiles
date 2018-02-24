@@ -122,10 +122,9 @@ MINICONDA_DIR="~/miniconda3/etc/profile.d/"
 
 if [ -d $CONDA_DIR ]; then
     source conda.sh
+    conda activate base
 fi
 
-source ~/anaconda3/etc/profile.d/conda.sh
-conda activate base
 export PATH="~/scripts:$PATH"
 
 # PYTHONPATH
