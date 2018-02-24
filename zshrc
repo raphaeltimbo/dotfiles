@@ -121,7 +121,7 @@ CONDA_DIR="$HOME/anaconda3/etc/profile.d/"
 MINICONDA_DIR="$HOME/miniconda3/etc/profile.d/"
 
 if [ -d $CONDA_DIR ]; then
-    source conda.sh
+    source $CONDA_DIR/conda.sh
     conda activate base
 fi
 
