@@ -20,7 +20,7 @@ setopt extendedhistory
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/raphael/.oh-my-zsh
+  export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -117,9 +117,16 @@ alias cdprf='cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON/prf'
 alias cdlavirot='cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON/LaviRot'
 
 # source conda and activate base environment.
+CONDA_DIR="~/anaconda3/etc/profile.d/"
+MINICONDA_DIR="~/miniconda3/etc/profile.d/"
+
+if [ -d $CONDA_DIR ]; then
+    source conda.sh
+fi
+
 source ~/anaconda3/etc/profile.d/conda.sh
 conda activate base
-export PATH="/home/raphael/scripts:$PATH"
+export PATH="~/scripts:$PATH"
 
 # PYTHONPATH
 export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/TRABALHO/MATERIAL/PYTHON/LaviRot"
