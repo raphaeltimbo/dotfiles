@@ -13,6 +13,7 @@
     ~/.jupyter/nbconfig/notebook.json: jupyter/notebook.json
     ~/.jupyter/jupyter_notebook_config.py: jupyter/jupyter_notebook_config.py
     ~/.screenrc:
+    ~/scripts/dev-dis: scripts/dev-dis
     ~/scripts/dev-lr: scripts/dev-lr
     ~/scripts/dev-prf: scripts/dev-prf
     ~/.tmux.conf: tmux.conf
