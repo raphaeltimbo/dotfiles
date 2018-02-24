@@ -152,4 +152,8 @@ bindkey -a '^V' edit-command-line
 bindkey '^?' backward-delete-char
 bindkey '^H' backward-delete-char
 
+# Local customization
+if [ -f ~/.zshrc_local_after ]; then
+    source ~/.zshrc_local_after
+fi
 
