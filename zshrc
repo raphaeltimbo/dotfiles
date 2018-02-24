@@ -117,15 +117,15 @@ alias cdprf='cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON/prf'
 alias cdlavirot='cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON/LaviRot'
 
 # source conda and activate base environment.
-CONDA_DIR="~/anaconda3/etc/profile.d/"
-MINICONDA_DIR="~/miniconda3/etc/profile.d/"
+CONDA_DIR="$HOME/anaconda3/etc/profile.d/"
+MINICONDA_DIR="$HOME/miniconda3/etc/profile.d/"
 
 if [ -d $CONDA_DIR ]; then
     source conda.sh
     conda activate base
 fi
 
-export PATH="~/scripts:$PATH"
+export PATH="$HOME/scripts:$PATH"
 
 # PYTHONPATH
 export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/TRABALHO/MATERIAL/PYTHON/LaviRot"
