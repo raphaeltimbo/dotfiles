@@ -1,9 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+__all__ = ['plot_colors']
+
 th = np.linspace(0, 2*np.pi, 512)
 
-def print_colors():
+def plot_colors():
     """
     Print matplotlib default colors with tab names.
 
