@@ -112,9 +112,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias cdhdpython='cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON'
-alias cdprf='cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON/prf'
-alias cdlavirot='cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON/LaviRot'
+alias cdhdpython='cd /media/raphael/My\ Passport/trabalho/material/python'
+alias cdprf='cd /media/raphael/My\ Passport/trabalho/material/python/prf'
+alias cdlavirot='cd /media/raphael/My\ Passport/trabalho/material/python/lavirot'
 
 # source conda and activate base environment.
 CONDA_DIR="$HOME/anaconda3/etc/profile.d/"
@@ -135,10 +135,10 @@ fi
 export PATH="$HOME/scripts:$PATH"
 
 # PYTHONPATH
-export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/TRABALHO/MATERIAL/PYTHON/LaviRot"
-export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/TRABALHO/MATERIAL/PYTHON/vibration_toolbox"
-export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/TRABALHO/MATERIAL/PYTHON/prf/"
-export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/TRABALHO/MATERIAL/PYTHON/PIPlot"
+export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/trabalho/material/python/lavirot"
+export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/trabalho/material/python/vibration_toolbox"
+export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/trabalho/material/python/prf/"
+export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/trabalho/material/python/piplot"
 
 # vim as default editor
 export VISUAL=vim

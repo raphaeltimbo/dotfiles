@@ -119,10 +119,10 @@ fi
 export PATH="/home/scripts:$PATH"
 
 # PYTHONPATH
-export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/TRABALHO/MATERIAL/PYTHON/LaviRot"
-export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/TRABALHO/MATERIAL/PYTHON/vibration_toolbox"
-export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/TRABALHO/MATERIAL/PYTHON/prf/"
-export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/TRABALHO/MATERIAL/PYTHON/PIPlot"
+export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/trabalho/material/python/lavirot"
+export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/trabalho/material/python/vibration_toolbox"
+export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/trabalho/material/python/prf/"
+export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/trabalho/material/python/piplot"
 echo $PYTHONPATH
 echo "executed"
 

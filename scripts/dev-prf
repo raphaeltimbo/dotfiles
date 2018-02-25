@@ -4,7 +4,7 @@ source $HOME/.zshrc
 CONDA_ENV=prf
 conda activate $CONDA_ENV
 
-cd /media/raphael/My\ Passport/TRABALHO/MATERIAL/PYTHON/prf/prf 
+cd /media/raphael/My\ Passport/trabalho/material/python/prf/prf
 
 tmux new-session -d 'vim'
 tmux split-window -v 
