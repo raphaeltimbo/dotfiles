@@ -135,6 +135,7 @@ fi
 export PATH="$HOME/scripts:$PATH"
 
 # PYTHONPATH
+export PYTHONPATH="${PYTHONPATH}:$HOME/scripts"
 export PYTHONPATH="${PYTHONPATH}:$HOME/lavirot"
 export PYTHONPATH="${PYTHONPATH}:$HOME/vibration_toolbox"
 export PYTHONPATH="${PYTHONPATH}:$HOME/prf/"
