@@ -135,10 +135,10 @@ fi
 export PATH="$HOME/scripts:$PATH"
 
 # PYTHONPATH
-export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/trabalho/material/python/lavirot"
-export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/trabalho/material/python/vibration_toolbox"
-export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/trabalho/material/python/prf/"
-export PYTHONPATH="${PYTHONPATH}:/media/raphael/My Passport/trabalho/material/python/piplot"
+export PYTHONPATH="${PYTHONPATH}:$HOME/lavirot"
+export PYTHONPATH="${PYTHONPATH}:$HOME/vibration_toolbox"
+export PYTHONPATH="${PYTHONPATH}:$HOME/prf/"
+export PYTHONPATH="${PYTHONPATH}:$HOME/piplot"
 
 # vim as default editor
 export VISUAL=vim
