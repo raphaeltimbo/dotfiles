@@ -8,6 +8,7 @@
     ~/.gitconfig:
     ~/.gitignore_global:
     ~/.condarc: condarc
+    ~/.config/git: config/git
     ~/.config/powerline: config/powerline
     ~/.jupyter/custom/custom: jupyter/custom.js
     ~/.jupyter/nbconfig/notebook.json: jupyter/notebook.json
