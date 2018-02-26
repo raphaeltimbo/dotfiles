@@ -113,8 +113,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cdhdpython='cd /media/raphael/My\ Passport/trabalho/material/python'
-alias cdprf='cd /media/raphael/My\ Passport/trabalho/material/python/prf'
-alias cdlavirot='cd /media/raphael/My\ Passport/trabalho/material/python/lavirot'
 
 # source conda and activate base environment.
 CONDA_DIR="$HOME/anaconda3/etc/profile.d/"
