@@ -26,6 +26,8 @@ function! StartUp()
 endfunction
 
 autocmd VimEnter * call StartUp()
+" keep clipboard on exit
+autocmd VimLeave * call system("xsel -ib", getreg('+'))
 
 " split config
 " open new split panes to right and bottom, which feels more natural
