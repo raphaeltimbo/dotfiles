@@ -20,3 +20,5 @@
     linenumber = green
     separator = yellow
     function = blue
+[include]
+    path = ~/.gitconfig_local
