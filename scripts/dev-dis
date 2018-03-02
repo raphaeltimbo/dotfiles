@@ -8,7 +8,8 @@ cd /media/raphael/My\ Passport/trabalho/material/mestrado/dissertacao/
 
 tmux new-session -d 'vim'
 tmux split-window -v 
-tmux new-window 'jupyter notebook'
+tmux new-window 'jupyter notebook --notebook-dir notebooks'
+
 tmux last-window
 tmux -2 attach-session -d
 
