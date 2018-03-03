@@ -117,6 +117,13 @@ map <leader>md :InstantMarkdownPreview<CR>"
 " Avoid remap of - when vimwiki is loaded
 nnoremap łwf <Plug>VimwikiRemoveHeaderLevel
 
+" auto bracket setting
+inoremap ( ()<Esc>i
+inoremap [ []<Esc>i
+inoremap ' ''<Esc>i
+inoremap " ""<Esc>i
+" leave the brackets
+inoremap <C-l> <Esc>/[)}"'\]>]<CR>:nohl<CR>a
 
 "---------------------
 " Basic editing config
