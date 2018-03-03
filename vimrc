@@ -79,6 +79,17 @@ let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 let g:syntastic_python_checkers = ['pylint']
 
+function! ToggleErrors()
+    if empty(filter(tabpagebuflist(), 'getbufvar(v:val, "&buftype") is# "quickfix"'))
+         " No location/quickfix list shown, open syntastic error location panel
+         Errors
+    else
+        lclose
+    endif
+endfunction
+
+nnoremap <silent> <C-e> :<C-u>call ToggleErrors()<CR>
+
 " powerline
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
