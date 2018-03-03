@@ -49,11 +49,13 @@
     path = vim/bundle/nerdcommenter
     url = https://github.com/scrooloose/nerdcommenter.git
     ignore = untracked
-
-              
 [submodule "vim/bundle/vimwiki"]
 	path = vim/bundle/vimwiki
 	url = https://github.com/vimwiki/vimwiki.git
 [submodule "vim/bundle/vim-instant-markdown"]
 	path = vim/bundle/vim-instant-markdown
 	url = https://github.com/suan/vim-instant-markdown
+[submodule "vim/bundle/indentLine"]
+	path = vim/bundle/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
+

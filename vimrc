@@ -64,9 +64,9 @@ map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 " Enable folding with the spacebar
 nnoremap <space> za
 
-highlight BadWhitespace ctermbg=DarkCyan guibg=DarkCyan
+" highlight BadWhitespace ctermbg=DarkCyan guibg=DarkCyan
 " flag unnecessary whitespace
-au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+" au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
 " syntastic
 set statusline+=%#warningmsg#
