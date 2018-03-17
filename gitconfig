@@ -22,3 +22,5 @@
     function = blue
 [include]
     path = ~/.gitconfig_local
+[merge]
+    tool = vimdiff
