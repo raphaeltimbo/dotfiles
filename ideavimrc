@@ -1,0 +1,5 @@
+imap jj <Esc>
+xnoremap p pgvy
+nnoremap - $
+vnoremap - $
+let mapleader = " "
