@@ -122,8 +122,10 @@ inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
 inoremap ' ''<Esc>i
 inoremap " ""<Esc>i
+inoremap { {}<Esc>i
 " leave the brackets
-inoremap <C-l> <Esc>/[)}"'\]>]<CR>:nohl<CR>a
+inoremap <leader>, <Esc>/[)}"'\]>]<CR>:nohl<CR>a
+inoremap <leader>: <Esc>/[)}"'\]>]<CR>:nohl<CR>a:
 
 "---------------------
 " Basic editing config
