@@ -45,10 +45,6 @@
     path = vim/bundle/powerline
     url = https://github.com/powerline/powerline
     ignore = untracked
-[submodule "vim/powerline/nerdcommenter"]
-    path = vim/bundle/nerdcommenter
-    url = https://github.com/scrooloose/nerdcommenter.git
-    ignore = untracked
 [submodule "vim/bundle/vimwiki"]
 	path = vim/bundle/vimwiki
 	url = https://github.com/vimwiki/vimwiki.git
@@ -59,3 +55,6 @@
 	path = vim/bundle/indentLine
 	url = https://github.com/Yggdroot/indentLine.git
 
+[submodule "vim/bundle/vim-commentary"]
+	path = vim/bundle/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
