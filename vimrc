@@ -7,7 +7,7 @@ call pathogen#infect()
 call pathogen#helptags()
 
 " space as leader \<Space>?
-let mapleader = (' ')
+let mapleader = ','
 
 imap jj <Esc>
 xnoremap p pgvy
