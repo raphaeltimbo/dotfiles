@@ -1,4 +1,5 @@
 #!/bin/zsh
+
 source $HOME/.zshrc
 
 CONDA_ENV=prf
@@ -6,10 +7,10 @@ conda activate $CONDA_ENV
 
 cd $HOME/prf/prf
 
-tmux new-session -d 'vim'
-tmux split-window -v 
-tmux new-window 'jupyter notebook --notebook-dir notebooks'
+tmux new-session -s prf -d 'vim'
+tmux split-window -v -t prf
+tmux new-window -t prf 'jupyter notebook --notebook-dir notebooks'
 
-tmux last-window
-tmux -2 attach-session -d
+tmux last-window -t prf
+tmux attach-session -t prf
 
