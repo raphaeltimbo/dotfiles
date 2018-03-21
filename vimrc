@@ -123,6 +123,7 @@ inoremap [ []<Esc>i
 inoremap ' ''<Esc>i
 inoremap " ""<Esc>i
 inoremap { {}<Esc>i
+inoremap ` ```python<CR>```<Esc>O
 " leave the brackets
 inoremap <leader>, <Esc>/[)}"'\]>]<CR>:nohl<CR>a
 inoremap <leader>: <Esc>/[)}"'\]>]<CR>:nohl<CR>a:
