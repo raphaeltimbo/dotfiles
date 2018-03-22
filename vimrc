@@ -123,11 +123,11 @@ inoremap [ []<Esc>i
 inoremap ' ''<Esc>i
 inoremap " ""<Esc>i
 inoremap { {}<Esc>i
-inoremap ` ``````<Esc>2hi
+inoremap ` ``<Esc>i
 inoremap <leader>` ```python<CR>```<Esc>O
 " leave the brackets
-inoremap <leader>, <Esc>/[)}"'\]>]<CR>:nohl<CR>a
-inoremap <leader>: <Esc>/[)}"'\]>]<CR>:nohl<CR>a:
+inoremap <leader>, <Esc>/[)}"'`\]>]<CR>:nohl<CR>a
+inoremap <leader>: <Esc>/[)}"'`\]>]<CR>:nohl<CR>a:
 
 "---------------------
 " Basic editing config
