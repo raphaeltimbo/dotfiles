@@ -11,8 +11,7 @@ let mapleader = ','
 
 imap jj <Esc>
 xnoremap p pgvy
-nnoremap - $
-vnoremap - $
+map - $
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 nmap <F6> :NERDTreeToggle<CR>
@@ -161,6 +160,7 @@ set smartcase
 " tab completion for files/bufferss
 set wildmode=longest,list
 set wildmenu
+set tw=79 " word wrapping
 set mouse+=a " enable mouse mode (scrolling, selection, etc)
 if &term =~ '^screen'
     " tmux knows the extended mouse mode
