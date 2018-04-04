@@ -62,6 +62,7 @@ map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 " Enable folding with the spacebar
 nnoremap <space> za
+let g:SimpylFold_docstring_preview = 1
 
 " highlight BadWhitespace ctermbg=DarkCyan guibg=DarkCyan
 " flag unnecessary whitespace
@@ -72,7 +73,7 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
+let g:syntastic_auto_loc_list = 0
 let g:syntastic_notifier_balloons = 1
 let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
