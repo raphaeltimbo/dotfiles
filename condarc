@@ -22,4 +22,5 @@ create_default_packages:
   - jupyter_contrib_nbextensions
   - pylint
   - powerline-status
+  - yaml
 
