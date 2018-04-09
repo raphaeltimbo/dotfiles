@@ -132,6 +132,8 @@ fi
 
 export PATH="$HOME/scripts:$PATH"
 
+export RPPREFIX=$HOME/REFPROP-cmake/build
+
 # PYTHONPATH
 export PYTHONPATH="${PYTHONPATH}:$HOME/scripts"
 export PYTHONPATH="${PYTHONPATH}:$HOME/lavirot"
