@@ -21,6 +21,7 @@
 *.log
 *.sql
 *.sqlite
+.pytest_cache/
 
 # OS generated files #
 ######################

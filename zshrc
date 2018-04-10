@@ -132,7 +132,7 @@ fi
 
 export PATH="$HOME/scripts:$PATH"
 
-export RPPREFIX=$HOME/REFPROP-cmake/build
+export RPPREFIX=$HOME/REFPROP/REFPROP-cmake/build
 
 # PYTHONPATH
 export PYTHONPATH="${PYTHONPATH}:$HOME/scripts"
