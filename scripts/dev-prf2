@@ -2,7 +2,7 @@
 
 source $HOME/.zshrc
 
-CONDA_ENV=prf2
+CONDA_ENV=prf
 conda activate $CONDA_ENV
 
 cd $HOME/prf2/prf2
