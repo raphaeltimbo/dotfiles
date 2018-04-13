@@ -1,0 +1,16 @@
+#!/bin/zsh
+
+source $HOME/.zshrc
+
+CONDA_ENV=prf2
+conda activate $CONDA_ENV
+
+cd $HOME/prf2/prf2
+
+tmux new-session -s prf2 -d 'vim'
+tmux split-window -v -t prf2
+tmux new-window -t prf2 'jupyter notebook --notebook-dir notebooks'
+
+tmux last-window -t prf2
+tmux attach-session -t prf2
+
