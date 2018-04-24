@@ -1,0 +1,16 @@
+#!/bin/zsh
+
+source $HOME/.zshrc
+
+CONDA_ENV=prf
+conda activate $CONDA_ENV
+
+cd $HOME/cpp/cpp
+
+tmux new-session -s cpp -d 'vim'
+tmux split-window -v -t cpp
+tmux new-window -t cpp 'jupyter notebook --notebook-dir notebooks'
+
+tmux last-window -t cpp
+tmux attach-session -t cpp
+
