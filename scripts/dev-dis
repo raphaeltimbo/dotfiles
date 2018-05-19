@@ -4,7 +4,7 @@ source $HOME/.zshrc
 CONDA_ENV=lr
 conda activate $CONDA_ENV
 
-cd $HOME/dissertacao/
+cd $HOME/Dropbox/trabalho/material/mestrado/dissertacao/
 
 tmux new-session -d 'vim'
 tmux split-window -v 
