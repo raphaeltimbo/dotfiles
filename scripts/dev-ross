@@ -4,7 +4,7 @@ source $HOME/.zshrc
 CONDA_ENV=lr
 conda activate $CONDA_ENV
 
-cd $HOME/lavirot/lavirot
+cd $HOME/ross/ross
 
 tmux new-session -d 'vim'
 tmux split-window -v 
