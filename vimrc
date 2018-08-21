@@ -162,6 +162,7 @@ set smartcase
 set wildmode=longest,list
 set wildmenu
 set tw=79 " word wrapping
+let &colorcolumn="80,".join(range(120,999),",")
 set mouse+=a " enable mouse mode (scrolling, selection, etc)
 if &term =~ '^screen'
     " tmux knows the extended mouse mode
