@@ -1,6 +1,4 @@
 channels:
-  - conda-canary
-  - conda-forge
   - defaults
 create_default_packages:
   - pip
@@ -13,15 +11,12 @@ create_default_packages:
   - seaborn
   - pandas
   - tqdm
-  - pint
   - xlrd
   - jupyter
   - ipykernel
   - nb_conda_kernels
   - pytest
-  - jupyter_contrib_nbextensions
   - pylint
-  - powerline-status
   - yaml
   - bokeh
   - openpyxl
