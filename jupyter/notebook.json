@@ -1,9 +1,14 @@
 {
   "load_extensions": {
-    "vim_binding/vim_binding": true
+    "vim_binding/vim_binding": false,
+    "equation-numbering/main": true
   },
   "Notebook": {
     "Header": true,
     "Toolbar": true
+  },
+  "rise": {
+    "theme": "white",
+    "scroll": true
   }
 }
