@@ -142,11 +142,6 @@ export PYTHONPATH="${PYTHONPATH}:$HOME/prf/"
 export PYTHONPATH="${PYTHONPATH}:$HOME/ccp/"
 export PYTHONPATH="${PYTHONPATH}:$HOME/piplot"
 
-#LD_LIBRARY_PATH
-export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/lib/nvidia-396/"
-export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/local/cuda-9.0/lib64/"
-
-
 # vim as default editor
 export VISUAL=vim
 export EDITOR=$VISUAL
