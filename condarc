@@ -21,4 +21,6 @@ create_default_packages:
   - bokeh
   - openpyxl
   - toml
+  - sphinx
+  - coverage
 
