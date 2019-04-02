@@ -136,7 +136,7 @@ export RPPREFIX=$HOME/REFPROP/REFPROP-cmake/build
 
 # PYTHONPATH
 export PYTHONPATH="${PYTHONPATH}:$HOME/scripts"
-export PYTHONPATH="${PYTHONPATH}:$HOME/project_ross/ross"
+export PYTHONPATH="${PYTHONPATH}:$HOME/ross/ross"
 export PYTHONPATH="${PYTHONPATH}:$HOME/vibration_toolbox"
 export PYTHONPATH="${PYTHONPATH}:$HOME/prf/"
 export PYTHONPATH="${PYTHONPATH}:$HOME/ccp/"
