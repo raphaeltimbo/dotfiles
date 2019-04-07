@@ -22,5 +22,5 @@
     ~/.zshrc:
 
 - shell:
-  - git update-submodules
+  - [git update-submodules --init --recursive, Installing submodules]
 
