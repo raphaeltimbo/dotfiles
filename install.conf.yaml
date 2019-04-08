@@ -8,6 +8,7 @@
     ~/.condarc: condarc
     ~/.config/git: config/git
     ~/.config/powerline: config/powerline
+    ~/.dir_colors/dircolors:
     ~/.gitconfig:
     ~/.gitignore_global:
     ~/.ideavimrc: 
