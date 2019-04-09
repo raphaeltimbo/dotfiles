@@ -49,7 +49,6 @@ set background=dark
 colorscheme solarized
 let g:solarized_termtrans=1
 let g:solarized_termcolors=256
-let g:lightline={'colorscheme': 'solarized'}
 
 " text format
 filetype plugin indent on " enable file type detection
