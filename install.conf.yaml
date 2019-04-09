@@ -9,6 +9,9 @@
     ~/.config/git: config/git
     ~/.config/powerline: config/powerline
     ~/.dir_colors/dircolors:
+    ~/.fonts/:
+      glob: true
+      path: fonts/*
     ~/.gitconfig:
     ~/.gitignore_global:
     ~/.ideavimrc: 
