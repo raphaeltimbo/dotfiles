@@ -2,7 +2,7 @@
 
 source $HOME/.zshrc
 
-CONDA_ENV=prf
+CONDA_ENV=ccp
 conda activate $CONDA_ENV
 
 cd $HOME/ccp/ccp

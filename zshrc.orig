@@ -113,8 +113,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cdhdpython='cd /media/raphael/My\ Passport/trabalho/material/python'
+<<<<<<< HEAD
 alias octave='flatpak run org.octave.Octave'
+=======
 alias of6='source /opt/openfoam6/etc/bashrc'
+>>>>>>> b2d8856e3c62f34fafdb541e3a6c30eb5df6915b
 
 # source conda and activate base environment.
 CONDA_DIR="$HOME/anaconda3/etc/profile.d/"
