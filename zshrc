@@ -136,6 +136,9 @@ export PATH="$HOME/scripts:$PATH"
 
 export RPPREFIX=$HOME/REFPROP/REFPROP-cmake/build
 
+# GITHUB TOKEN
+export GH_AUTH=$(cat $HOME/tokens/ross-bott)
+
 # PYTHONPATH
 export PYTHONPATH="${PYTHONPATH}:$HOME/scripts"
 export PYTHONPATH="${PYTHONPATH}:$HOME/ross/"

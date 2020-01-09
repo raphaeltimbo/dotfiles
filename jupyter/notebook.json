@@ -11,5 +11,10 @@
     "theme": "white",
     "scroll": true,
     "enable_chalkboard": false
+  },
+  "Cell": {
+    "cm_config": {
+      "lineNumbers": true
+    }
   }
 }
