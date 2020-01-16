@@ -23,5 +23,4 @@ create_default_packages:
   - toml
   - sphinx
   - coverage
-  - powerline-status
 
