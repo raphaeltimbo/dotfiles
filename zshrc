@@ -141,7 +141,6 @@ export GH_AUTH=$(cat $HOME/tokens/ross-bott)
 
 # PYTHONPATH
 export PYTHONPATH="${PYTHONPATH}:$HOME/scripts"
-export PYTHONPATH="${PYTHONPATH}:$HOME/ross/"
 export PYTHONPATH="${PYTHONPATH}:$HOME/vibration_toolbox"
 export PYTHONPATH="${PYTHONPATH}:$HOME/prf/"
 export PYTHONPATH="${PYTHONPATH}:$HOME/ccp/"
