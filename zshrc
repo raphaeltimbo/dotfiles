@@ -143,7 +143,6 @@ export GH_AUTH=$(cat $HOME/tokens/ross-bott)
 export PYTHONPATH="${PYTHONPATH}:$HOME/scripts"
 export PYTHONPATH="${PYTHONPATH}:$HOME/vibration_toolbox"
 export PYTHONPATH="${PYTHONPATH}:$HOME/prf/"
-export PYTHONPATH="${PYTHONPATH}:$HOME/ccp/"
 export PYTHONPATH="${PYTHONPATH}:$HOME/piplot"
 
 # vim as default editor
