@@ -1,5 +1,4 @@
 imap jj <Esc>
 xnoremap p pgvy
-nnoremap - $
-vnoremap - $
+map - $
 let mapleader = " "
