@@ -23,4 +23,5 @@ create_default_packages:
   - toml
   - sphinx
   - coverage
+  - black
 
