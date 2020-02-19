@@ -1,4 +1,5 @@
 #!/bin/zsh
+#
 source $HOME/.zshrc
 
 CONDA_ENV=rs
@@ -7,10 +8,10 @@ export PYTHONPATH="${PYTHONPATH}:$HOME/ross/"
 
 cd $HOME/ross/ross
 
-tmux new-session -d 'vim'
-tmux split-window -v 
-tmux new-window 'jupyter notebook --notebook-dir ../notebooks'
+tmux new-session -s rs -d 'vim'
+tmux split-window -v -t rs
+tmux new-window -t rs 'jupyter notebook --notebook-dir ../notebooks'
 
-tmux last-window
-tmux -2 attach-session -d
+tmux last-window -t rs
+tmux attach-session -t rs
 
