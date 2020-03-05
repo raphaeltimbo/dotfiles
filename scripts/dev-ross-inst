@@ -1,0 +1,16 @@
+#!/bin/zsh
+#
+source $HOME/.zshrc
+
+CONDA_ENV=rs-inst
+conda activate $CONDA_ENV
+
+cd $HOME/ross/ross
+
+tmux new-session -s rs-inst -d 'vim'
+tmux split-window -v -t rs-inst
+tmux new-window -t rs-inst 'jupyter notebook --notebook-dir ../notebooks'
+
+tmux last-window -t rs-inst
+tmux attach-session -t rs-inst
+
