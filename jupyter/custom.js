@@ -6,5 +6,9 @@ require([
   CodeMirror.Vim.map("jj", "<Esc>", "insert");
   CodeMirror.Vim.map("-", "$", "normal");
   CodeMirror.Vim.map("-", "$", "visual");
+  CodeMirror.Vim.defineOperator("comment_op", function(cm) {
+          cm.toggleComment();
+      });
+  CodeMirror.Vim.mapCommand("gc", "operator", "comment_op", {});
 });
 
