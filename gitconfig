@@ -24,3 +24,6 @@
     path = ~/.gitconfig_local
 [merge]
     tool = vimdiff
+[commit]
+    verbose = true
+
