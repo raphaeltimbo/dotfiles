@@ -139,12 +139,6 @@ export RPPREFIX=$HOME/REFPROP/REFPROP-cmake/build
 # GITHUB TOKEN
 export GH_AUTH=$(cat $HOME/tokens/ross-bott)
 
-# PYTHONPATH
-export PYTHONPATH="${PYTHONPATH}:$HOME/scripts"
-export PYTHONPATH="${PYTHONPATH}:$HOME/vibration_toolbox"
-export PYTHONPATH="${PYTHONPATH}:$HOME/prf/"
-export PYTHONPATH="${PYTHONPATH}:$HOME/piplot"
-
 # vim as default editor
 export VISUAL=vim
 export EDITOR=$VISUAL

@@ -139,14 +139,6 @@ export PATH="$HOME/scripts:$PATH"
 
 export RPPREFIX=$HOME/REFPROP/REFPROP-cmake/build
 
-# PYTHONPATH
-export PYTHONPATH="${PYTHONPATH}:$HOME/scripts"
-export PYTHONPATH="${PYTHONPATH}:$HOME/ross/"
-export PYTHONPATH="${PYTHONPATH}:$HOME/vibration_toolbox"
-export PYTHONPATH="${PYTHONPATH}:$HOME/prf/"
-export PYTHONPATH="${PYTHONPATH}:$HOME/ccp/"
-export PYTHONPATH="${PYTHONPATH}:$HOME/piplot"
-
 # vim as default editor
 export VISUAL=vim
 export EDITOR=$VISUAL

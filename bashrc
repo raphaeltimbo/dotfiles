@@ -118,12 +118,6 @@ fi
 
 export PATH="/home/scripts:$PATH"
 
-# PYTHONPATH
-export PYTHONPATH="${PYTHONPATH}:$HOME/lavirot"
-export PYTHONPATH="${PYTHONPATH}:$HOME/vibration_toolbox"
-export PYTHONPATH="${PYTHONPATH}:$HOME/prf/"
-export PYTHONPATH="${PYTHONPATH}:$HOME/piplot"
-
 # vim as default editor
 export VISUAL=vim
 export EDITOR=$VISUAL

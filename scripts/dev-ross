@@ -4,7 +4,6 @@ source $HOME/.zshrc
 
 CONDA_ENV=rs
 conda activate $CONDA_ENV
-export PYTHONPATH="${PYTHONPATH}:$HOME/ross/"
 
 cd $HOME/ross/ross
 

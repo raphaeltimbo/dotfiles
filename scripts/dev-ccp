@@ -4,7 +4,6 @@ source $HOME/.zshrc
 
 CONDA_ENV=ccp
 conda activate $CONDA_ENV
-export PYTHONPATH="${PYTHONPATH}:$HOME/ccp/"
 
 cd $HOME/ccp/ccp
 
