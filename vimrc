@@ -13,6 +13,10 @@ imap jj <Esc>
 xnoremap p pgvy
 map - $
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+" inline math
+nnoremap <C-i> i\\(\\)hhi
+" block eq
+nnoremap <C-e> i\begin{equation}o\end{equation}ko
 
 nmap <F6> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
@@ -86,8 +90,6 @@ function! ToggleErrors()
         lclose
     endif
 endfunction
-
-nnoremap <silent> <C-e> :<C-u>call ToggleErrors()<CR>
 
 " powerline
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
