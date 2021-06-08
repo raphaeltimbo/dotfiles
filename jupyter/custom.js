@@ -10,5 +10,6 @@ require([
           cm.toggleComment();
       });
   CodeMirror.Vim.mapCommand("gc", "operator", "comment_op", {});
+  CodeMirror.Vim.mapCommand("<C-;>", "operator", "comment_op", {});
 });
 
