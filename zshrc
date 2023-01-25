@@ -115,6 +115,7 @@ source $ZSH/oh-my-zsh.sh
 alias cdhdpython='cd /media/raphael/My\ Passport/trabalho/material/python'
 alias octave='flatpak run org.octave.Octave'
 alias of18='source /opt/OpenFOAM/OpenFOAM-v1812/etc/bashrc'
+alias matlab='sh /home/raphael/matlab2021/bin/matlab'
 
 # source conda and activate base environment.
 CONDA_DIR="$HOME/anaconda3/etc/profile.d/"
@@ -134,7 +135,7 @@ fi
 
 export PATH="$HOME/scripts:$PATH"
 
-export RPPREFIX=$HOME/REFPROP/REFPROP-cmake/build
+export RPPREFIX=$HOME/REFPROP-cmake/build
 
 # GITHUB TOKEN
 export GH_AUTH=$(cat $HOME/tokens/ross-bott)
