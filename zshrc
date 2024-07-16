@@ -26,7 +26,7 @@ setopt extendedhistory
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="agnoster"
-eval `dircolors ~/.dir_colors/dircolors`
+# eval `dircolors ~/.dir_colors/dircolors`
 #. ~/.vim/bundle/powerline/powerline/bindings/zsh/powerline.zsh
 
 # Set list of themes to load
@@ -117,28 +117,13 @@ alias octave='flatpak run org.octave.Octave'
 alias of18='source /opt/OpenFOAM/OpenFOAM-v1812/etc/bashrc'
 alias matlab='sh /home/raphael/matlab2021/bin/matlab'
 
-# source conda and activate base environment.
-CONDA_DIR="$HOME/anaconda3/etc/profile.d/"
-MINICONDA_DIR="$HOME/miniconda3/etc/profile.d/"
-
-source $CONDA_DIR/conda.sh
-
-# check if conda env is already set
-if [ -z $CONDA_PREFIX ]; then
-    if [ -d $CONDA_DIR ]; then
-        source $CONDA_DIR/conda.sh
-        conda activate base
-    fi
-else
-    conda activate ${CONDA_PREFIX}
-fi
-
 export PATH="$HOME/scripts:$PATH"
 
 export RPPREFIX=$HOME/REFPROP-cmake/build
+export PI_DGS="NBNJXnX4g!"
 
 # GITHUB TOKEN
-export GH_AUTH=$(cat $HOME/tokens/ross-bott)
+# export GH_AUTH=$(cat $HOME/tokens/ross-bott)
 
 # vim as default editor
 export VISUAL=vim
@@ -164,3 +149,32 @@ if [ -f ~/.zshrc_local_after ]; then
 fi
 
 cd ~
+
+if [ -n $CONDA_PREFIX ]; then
+    set_env=1
+    current_env=$CONDA_PREFIX
+fi
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/raphaelts/miniforge3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/raphaelts/miniforge3/etc/profile.d/conda.sh" ]; then
+        . "/home/raphaelts/miniforge3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/raphaelts/miniforge3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+
+if [ -f "/home/raphaelts/miniforge3/etc/profile.d/mamba.sh" ]; then
+    . "/home/raphaelts/miniforge3/etc/profile.d/mamba.sh"
+fi
+# <<< conda initialize <<<
+
+if [ -v set_env ]; then
+    conda activate $current_env
+fi
+

@@ -24,4 +24,6 @@ create_default_packages:
   - sphinx
   - coverage
   - black
+  - powerline-status
 
+ssl_verify: false
